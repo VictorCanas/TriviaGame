@@ -24,19 +24,24 @@
   <img src="assets/images/stranger.png" class="img-responsive" style="display:inline" alt="Stranger" width="300" height="300">
   <p>Trivia Edition</p>
    <div>
-   <button type="button" value="Refresh Page" onClick="window.location.reload()" class="btn btn-success margin">Start</button>
+   <button type="button" id="startClock" class="btn btn-success margin">Start</button>
+   <span id="count"></span>
  </div>
+
 
   <img id="image" class="img-responsive" style="display:inline" alt="Stranger" width="120" height="120">
   
     <h1 id="distext"></h1>
 
+    
+
+
     <h3 id="statext">Who's the character?</h3>
 
-          <div class="button-box col-lg-12">
-            <button type="button" class="btn btn-danger" role="button">Eleven</button>
-            <button type="button" class="btn btn-danger" role="button">Demogoron</button>
-            <button type="button" class="btn btn-danger" role="button">Luke</button>
+          <div id ="button" class="button-box col-lg-12">
+            <button type="button"  class="btn btn-danger" role="button">Eleven</button>
+            <button type="button"  class="btn btn-danger" role="button">Demogoron</button>
+            <button type="button"  class="btn btn-danger" role="button">Luke</button>
              <button type="button" class="btn btn-danger" role="button">Mike</button>
        </div>
 
