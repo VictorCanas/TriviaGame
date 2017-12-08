@@ -14,4 +14,4 @@ document.getElementById("distext").innerHTML = word;
 function startTimer(){  var counter = 20;  setInterval(function() {    counter--;    if (counter >= 0) {      span = document.getElementById("count");      span.innerHTML = counter;    }    if (counter === 0) {        alert('sorry, out of time');        clearInterval(counter);    }  }, 1000); 
 }
 function displayStatus(status){  document.getElementById("statext").innerHTML = status;}
-{    return this.substr(0, index) + replacement + this.substr(index + replacement.length);}
+
